@@ -325,11 +325,13 @@ footer .info:hover {
 
         /*description in reverse*/ 
         #desc {
-            top: 1.7rem;
+            top: 2rem;
             left: 40%;
             margin-left: 2rem;
             font-size: .5rem;
             text-align: end;
+          
+            
         }
 
         #nft,
