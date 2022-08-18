@@ -72,7 +72,7 @@ nav a:hover {
     background-color: #515;
     border: 3px solid #115;
     width: 70vw;
-    height: 30vh;
+    height: 40vh;
     position: relative;
     overflow: hidden;
     border-radius: 1rem;
@@ -83,8 +83,8 @@ nav a:hover {
     display: inline;
     font-size: 2rem;
     position: absolute;
-    margin-left: 1rem;
-    margin-top: .5rem;
+    margin: 1rem 1rem 2rem;
+ 
 }
 
 .desc {
@@ -92,7 +92,7 @@ nav a:hover {
     font-size: 1rem;
     width: 55%;
     position: relative;
-    top: 3.5rem;
+    top: 4.5rem;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
@@ -102,6 +102,7 @@ nav a:hover {
 /*Second Description(reverse) */
 #desc {
     left: 38%;
+    top: 4rem;
     text-align: start;
 }
 
@@ -110,13 +111,13 @@ nav a:hover {
 #nft1,
 #nft2 {
 
-    width: 14rem;
-    height: 8rem;
+    width: 15rem;
+    height: 7rem;
     padding: 2rem;
     border-radius: 1rem;
     border: #000 2px solid;
     position: relative;
-    top: -7.8rem;
+    top: -6rem;
     left: 60%;
     display: inline-block;
     background-image: url(images/bg.png);
@@ -129,12 +130,12 @@ nav a:hover {
 
 #nft1 {
     left: 5%;
-    top: -6.5rem;
+    top: -5rem;
     margin-top: 3rem;
     height: 5rem;
     background-image: url(images/mint.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
 #nft2 {
@@ -310,11 +311,13 @@ footer .info:hover {
 
         .description h2 {
             font-size: 1rem;
+            position: relative;
+            top:1rem;
         }
 
         .desc {
             margin-left: .5rem;
-            margin-top: 1rem;
+            margin-top: .5rem;
             font-size: .5rem;
             width: 45%;
             top: 1.5rem;
@@ -439,12 +442,12 @@ footer .info:hover {
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
-    body {}
+    
 }
 
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
-    body {}
+   
 }
 
 /* Media Query for Large screens */
