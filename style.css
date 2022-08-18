@@ -448,6 +448,14 @@ footer .info:hover {
         font-size: 1rem;
     }
 
+    ul {
+        height: 5rem;
+    }
+
+    ul li {
+        position: static;
+    }
+
     .desc {
         font-size: 1.2rem;
     }
