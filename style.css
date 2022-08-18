@@ -71,8 +71,8 @@ nav a:hover {
     margin-left: 16rem;
     background-color: #515;
     border: 3px solid #115;
-    width: 60vw;
-    height: 40vh;
+    width: 70vw;
+    height: 30vh;
     position: relative;
     overflow: hidden;
     border-radius: 1rem;
@@ -100,10 +100,16 @@ nav a:hover {
 }
 
 /*Second Description(reverse) */
+<<<<<<< HEAD
 #desc {
     top: 4rem;
     left: 38%;
     text-align: end;
+=======
+#desc{
+    left: 38%;
+    text-align: start;
+>>>>>>> 0ae3903476dbfc6f8f111e5ba7aeda0b9b0de5e3
 }
 
 
@@ -468,12 +474,55 @@ footer a {
           
         /* Media Query for Large screens */
         @media (min-width: 1281px) {
+            p {
+                font-size: 1rem;
+            }
+
             .about-description {
                 margin-top: 2.7%;       
             }
+
+            .about-description h2 {
+                margin-left: 30px;
+            }
+
             #nft {
-                margin-top: 2.3%;
+                margin-top: 4.3%;
                 margin-left: 10%;
             }
+<<<<<<< HEAD
         }
 >>>>>>> c5d1d057c382e6c3e80eed67928c5ce70e275909
+=======
+
+            #nft1 {
+                margin-top: 3.5%;
+                margin-left: -4%;
+            }
+
+            .about-nft {
+                width: 100%;
+            }
+
+            .about-nft h2 {
+                margin-top: -1rem;
+                margin-left: 40.5%;
+            }
+            .about-nft p {
+                margin-top: 2%;
+            }
+
+            .nft-images {
+                width: 30%;
+                height: 50%;
+                margin-top: 1.5rem;
+            }
+
+            #nft1 {
+                background-size: 100% 100%;
+                width: 100%;
+                height: 100%;
+                margin-left: 10px;
+            }
+        }
+>>>>>>> 0ae3903476dbfc6f8f111e5ba7aeda0b9b0de5e3
