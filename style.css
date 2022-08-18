@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    cursor: default;
+}
+
+
+body {
+    padding: 4rem 0 0;
+    background: linear-gradient(90deg, #88009ad8,#4c4079, #6d58b1,#6d58b1, #88009ad8 );
+}
+
+nav {
+    margin-top: -4rem;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    background: radial-gradient(circle at 50% 50%, #515, #000);
+    height: 4rem;
+}
+
+li {
+    list-style: none;
+}
+
+ul>li {
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin: 2rem 1rem;
+    position: relative;
+    left: 0;
+    top: -10%;
+
+}
+
+
+
+nav img {
+    margin-left: 3rem;
+    margin-top: .3rem;
+    cursor: pointer;
+    max-width: 4vw;
+    max-height: 12vh;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 1rem;
+    color: #ccc;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/*CARDS*/
+#description{
+    margin-top: 5rem;
+    margin-left: 16rem;
+    background-color: #515;
+    border: 3px solid #115;
+    width: 60vw;
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+#description h2{
+color: #fff;
+display: inline;
+font-size: 2rem;
+position: absolute;
+margin-left: 1rem;
+margin-top: .5rem;
+}
+
+.desc {
+    margin-left: 2rem;
+    font-size: 1rem;
+    width: 55%;
+    position: relative;
+    top: 3.5rem;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*Second Description(reverse) */
+#desc{
+    top: 4rem;
+    left: 38%;
+text-align: end;
+}
+
+
+#nft, #nft1, #nft2 {
+  
+  width: 14rem;
+  height: 8rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: #000 2px solid;
+  position: relative;
+  top: -7.8rem;
+  left: 60%;
+  display: inline-block;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+#nft1{
+    left: 5%;
+    top: -6.5rem;
+    margin-top: 3rem;
+    height: 5rem;
+    background-image: url(images/mint.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#nft2{
+    margin-top: 2rem;
+    padding: none;
+    height: 4rem;
+    background-image: url(images/staking.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*CARDS END*/
+
+
+
+
+/*TOKENOMICS*/
+#toke-section{
+    margin-top: 10rem;
+    text-align:center;
+    width: 40rem;
+    height: 14rem;
+    background-color: transparent;
+    position: relative;
+    left: 25%;
+    margin-bottom: 25rem;
+  
+}
+
+
+#tittle{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: .5rem;
+    border: .5rem solid #004;
+    border-bottom: none;
+    border-radius: 4.5rem;
+    background-color: #515;
+}
+
+#toke-container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: transparent;
+    border: .5rem solid #004;
+    border-top: none;
+    border-radius: 2rem;
+    background-color: #515;
+    padding-top: 1rem;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.tokenomics{
+    position: relative;
+    box-sizing: content-box;
+    padding:0 2rem 10rem;
+}
+
+.text-container{
+    position: relative;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.text-container h4{
+    font-size: 1rem;
+}
+.icon-container{
+background-color: #dcd;
+border-radius: 50%;
+padding: 2rem;
+}
+.icon{
+    font-size: 3rem;
+    color: #a0a;
+}
+
+/*END TOKENOMICS*/
+
+
+/*FOOTER*/
+footer {
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 0;
+    background-color: #000;
+    /* background: radial-gradient(circle at 50% 50%, #6d58b1, #000); */
+}
+
+
+footer a {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+    left: 15%;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+footer img {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5rem;
+}
+.chains{
+    width: 10rem;
+    height: 3rem;
+
+}
+
+footer .info:hover {
+    background-color: rgb(182, 182, 17);
+}
+
+
+/*RESPONSIVE DESIGN*/
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+            body {
+                background-color: red;
+            }
+        }
+          
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+            body {
+                background-color: yellow;
+            }
+        }
+          
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px){
+            body {
+                background-color: blue;
+            }
+        }
+          
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px){
+            body {
+                background-color: green;
+            }
+        }
+          
+        /* Media Query for Large screens */
+        @media (min-width: 1281px) {
+            body {
+                background-color: white;
+            }
+
+        }
