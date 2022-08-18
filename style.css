@@ -66,7 +66,7 @@ nav a:hover {
 }
 
 /*CARDS*/
-#description{
+.description{
     margin-top: 5rem;
     margin-left: 16rem;
     background-color: #515;
@@ -78,7 +78,7 @@ nav a:hover {
     border-radius: 1rem;
 }
 
-#description h2{
+.description h2{
 color: #fff;
 display: inline;
 font-size: 2rem;
@@ -273,10 +273,17 @@ footer .info:hover {
 
         /* Media Query for Mobile Devices */
         @media (max-width: 480px) {
-            body {
-                
+            nav img {
+                margin-left: 1rem;
+                margin-top: .5rem;
+                cursor: pointer;
+                max-width: 14vw;
+                max-height: 12vh;
             }
-        }
+            
+
+            }
+
           
         /* Media Query for low resolution  Tablets, Ipads */
         @media (min-width: 481px) and (max-width: 767px) {
