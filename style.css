@@ -72,7 +72,7 @@ nav a:hover {
     background-color: #515;
     border: 3px solid #115;
     width: 70vw;
-    height: 40vh;
+    height: 30vh;
     position: relative;
     overflow: hidden;
     border-radius: 1rem;
@@ -83,8 +83,8 @@ nav a:hover {
     display: inline;
     font-size: 2rem;
     position: absolute;
-    margin: 1rem 1rem 2rem;
- 
+    margin-left: 1rem;
+    margin-top: .5rem;
 }
 
 .desc {
@@ -92,7 +92,7 @@ nav a:hover {
     font-size: 1rem;
     width: 55%;
     position: relative;
-    top: 4.5rem;
+    top: 3.5rem;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
@@ -100,24 +100,18 @@ nav a:hover {
 }
 
 /*Second Description(reverse) */
-#desc {
-    left: 38%;
-    top: 4rem;
-    text-align: start;
-}
-
 
 #nft,
 #nft1,
 #nft2 {
 
-    width: 15rem;
-    height: 7rem;
+    width: 14rem;
+    height: 8rem;
     padding: 2rem;
     border-radius: 1rem;
     border: #000 2px solid;
     position: relative;
-    top: -6rem;
+    top: -7.8rem;
     left: 60%;
     display: inline-block;
     background-image: url(images/bg.png);
@@ -130,12 +124,12 @@ nav a:hover {
 
 #nft1 {
     left: 5%;
-    top: -5rem;
+    top: -6.5rem;
     margin-top: 3rem;
     height: 5rem;
     background-image: url(images/mint.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
 }
 
 #nft2 {
@@ -311,27 +305,14 @@ footer .info:hover {
 
         .description h2 {
             font-size: 1rem;
-            position: relative;
-            top:1rem;
         }
 
         .desc {
             margin-left: .5rem;
-            margin-top: .5rem;
+            margin-top: 1rem;
             font-size: .5rem;
             width: 45%;
             top: 1.5rem;
-        }
-
-        /*description in reverse*/ 
-        #desc {
-            top: 2rem;
-            left: 40%;
-            margin-left: 2rem;
-            font-size: .5rem;
-            text-align: end;
-          
-            
         }
 
         #nft,
@@ -345,6 +326,15 @@ footer .info:hover {
             border: #000 2px solid;
             top: -6rem;
             left: 57%;
+        }
+
+        #desc {
+            top: 1.7rem;
+            left: 40%;
+            margin-left: 2rem;
+            font-size: .5rem;
+            text-align: end;
+            top: 4rem;
         }
 
         #nft1 {
@@ -444,18 +434,22 @@ footer .info:hover {
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
-    
+    body {}
 }
 
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
-   
+    body {}
 }
 
 /* Media Query for Large screens */
 @media (min-width: 1400px) {
     p {
         font-size: 1rem;
+    }
+
+    .desc {
+        font-size: 1.2rem;
     }
 
     .about-description {
@@ -471,18 +465,12 @@ footer .info:hover {
         margin-left: 10%;
     }
 
-    #nft1 {
-        margin-top: 3.5%;
-        margin-left: -4%;
-    }
-
     .about-nft {
         width: 100%;
     }
 
     .about-nft h2 {
-        margin-top: -1rem;
-        margin-left: 40.5%;
+        margin-left: 42%;
     }
 
     .about-nft p {
@@ -496,6 +484,8 @@ footer .info:hover {
     }
 
     #nft1 {
+        margin-top: 3.5%;
+        margin-left: -4%;
         background-size: 100% 100%;
         width: 100%;
         height: 100%;
@@ -503,6 +493,32 @@ footer .info:hover {
     }
 
     #nft2 {
-        margin-top: 5.5%;
+        background-size: 100% 100%;
+        width: 30%;
+        height: 50%;
+        margin-left: 10px;
+    }
+
+    .about-staking {
+        margin-top: 3rem;
+    }
+
+    .about-staking h2 {
+        margin-left: 30px;
+    }
+
+    #desc {
+        left: 40%;
+    }
+    
+    #toke-section {
+        margin-top: 10rem;
+        width: 50%;
+        height: 18rem;
+        margin-bottom: 15rem;
+    }
+
+    .tokenomics {
+        margin-top: 3rem;
     }
 }
