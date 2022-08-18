@@ -8,7 +8,7 @@
 
 body {
     padding: 4rem 0 0;
-    background: linear-gradient(90deg, #88009ad8,#4c4079, #6d58b1,#6d58b1, #88009ad8 );
+    background: linear-gradient(90deg, #88009ad8, #4c4079, #6d58b1, #6d58b1, #88009ad8);
 }
 
 nav {
@@ -66,7 +66,7 @@ nav a:hover {
 }
 
 /*CARDS*/
-.description{
+.description {
     margin-top: 5rem;
     margin-left: 16rem;
     background-color: #515;
@@ -78,13 +78,13 @@ nav a:hover {
     border-radius: 1rem;
 }
 
-.description h2{
-color: #fff;
-display: inline;
-font-size: 2rem;
-position: absolute;
-margin-left: 1rem;
-margin-top: .5rem;
+.description h2 {
+    color: #fff;
+    display: inline;
+    font-size: 2rem;
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: .5rem;
 }
 
 .desc {
@@ -100,32 +100,34 @@ margin-top: .5rem;
 }
 
 /*Second Description(reverse) */
-#desc{
+#desc {
     left: 38%;
     text-align: start;
 }
 
 
-#nft, #nft1, #nft2 {
-  
-  width: 14rem;
-  height: 8rem;
-  padding: 2rem;
-  border-radius: 1rem;
-  border: #000 2px solid;
-  position: relative;
-  top: -7.8rem;
-  left: 60%;
-  display: inline-block;
+#nft,
+#nft1,
+#nft2 {
+
+    width: 14rem;
+    height: 8rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: #000 2px solid;
+    position: relative;
+    top: -7.8rem;
+    left: 60%;
+    display: inline-block;
     background-image: url(images/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 
 
-#nft1{
+#nft1 {
     left: 5%;
     top: -6.5rem;
     margin-top: 3rem;
@@ -135,7 +137,7 @@ margin-top: .5rem;
     background-size: contain;
 }
 
-#nft2{
+#nft2 {
     margin-top: 2rem;
     padding: none;
     height: 4rem;
@@ -151,20 +153,20 @@ margin-top: .5rem;
 
 
 /*TOKENOMICS*/
-#toke-section{
+#toke-section {
     margin-top: 10rem;
-    text-align:center;
+    text-align: center;
     width: 40rem;
     height: 14rem;
     background-color: transparent;
     position: relative;
     left: 25%;
     margin-bottom: 25rem;
-  
+
 }
 
 
-#tittle{
+#tittle {
     color: #fff;
     font-size: 3rem;
     margin-bottom: .5rem;
@@ -174,11 +176,11 @@ margin-top: .5rem;
     background-color: #515;
 }
 
-#toke-container{
+#toke-container {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     background-color: transparent;
     border: .5rem solid #004;
     border-top: none;
@@ -191,27 +193,29 @@ margin-top: .5rem;
 }
 
 
-.tokenomics{
+.tokenomics {
     position: relative;
     box-sizing: content-box;
-    padding:0 2rem 10rem;
+    padding: 0 2rem 10rem;
 }
 
-.text-container{
+.text-container {
     position: relative;
     margin-top: 2rem;
     color: #fff;
 }
 
-.text-container h4{
+.text-container h4 {
     font-size: 1rem;
 }
-.icon-container{
-background-color: #dcd;
-border-radius: 50%;
-padding: 2rem;
+
+.icon-container {
+    background-color: #dcd;
+    border-radius: 50%;
+    padding: 2rem;
 }
-.icon{
+
+.icon {
     font-size: 3rem;
     color: #a0a;
 }
@@ -257,7 +261,8 @@ footer img {
     cursor: pointer;
     border-radius: 5rem;
 }
-.chains{
+
+.chains {
     width: 10rem;
     height: 3rem;
 
@@ -270,91 +275,229 @@ footer .info:hover {
 
 /*RESPONSIVE DESIGN*/
 
-        /* Media Query for Mobile Devices */
-        @media (max-width: 480px) {
-            nav img {
-                margin-left: 1rem;
-                margin-top: .5rem;
-                cursor: pointer;
-                max-width: 14vw;
-                max-height: 12vh;
-            }
-            
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
 
-            }
-
-          
-        /* Media Query for low resolution  Tablets, Ipads */
-        @media (min-width: 481px) and (max-width: 767px) {
-            body {
-                
-            }
+    /* Media Query for Mobile Devices */
+    @media (max-width: 480px) {
+        nav img {
+            margin-left: .5rem;
+            max-width: 14vw;
+            max-height: 12vh;
         }
-          
-        /* Media Query for Tablets Ipads portrait mode */
-        @media (min-width: 768px) and (max-width: 1024px){
-            body {
-                
-            }
+
+        ul {
+            width: 100vw;
+            background: radial-gradient(circle at 50% 50%, #515, #000);
+            height: 4rem;
         }
-          
-        /* Media Query for Laptops and Desktops */
-        @media (min-width: 1025px) and (max-width: 1280px){
-            body {
-                
-            }
+
+        ul>li {
+            margin: 2rem .5rem;
+            left: 1rem;
+            top: -10%;
+
         }
-          
-        /* Media Query for Large screens */
-        @media (min-width: 1281px) {
-            p {
-                font-size: 1rem;
-            }
 
-            .about-description {
-                margin-top: 2.7%;       
-            }
-
-            .about-description h2 {
-                margin-left: 30px;
-            }
-
-            #nft {
-                margin-top: 4.3%;
-                margin-left: 10%;
-            }
-
-            #nft1 {
-                margin-top: 3.5%;
-                margin-left: -4%;
-            }
-
-            .about-nft {
-                width: 100%;
-            }
-
-            .about-nft h2 {
-                margin-top: -1rem;
-                margin-left: 40.5%;
-            }
-            .about-nft p {
-                margin-top: 2%;
-            }
-
-            .nft-images {
-                width: 30%;
-                height: 50%;
-                margin-top: 1.5rem;
-            }
-
-            #nft1 {
-                background-size: 100% 100%;
-                width: 100%;
-                height: 100%;
-                margin-left: 10px;
-            }
-
-            #nft2 {
-                margin-top: 5.5%;
-            }
+        /*Nav end*/
+         /*CARDS*/ 
+         .description {
+            margin-top: 5%;
+            margin-left: 8%;
+            width: 20rem;
+            height: 10rem;
         }
+
+        .description h2 {
+            font-size: 1rem;
+        }
+
+        .desc {
+            margin-left: .5rem;
+            margin-top: 1rem;
+            font-size: .5rem;
+            width: 45%;
+            top: 1.5rem;
+        }
+
+        /*description in reverse*/ 
+        #desc {
+            top: 1.7rem;
+            left: 40%;
+            margin-left: 2rem;
+            font-size: .5rem;
+            text-align: end;
+        }
+
+        #nft,
+        #nft1,
+        #nft2 {
+
+            width: 4rem;
+            height: 2rem;
+            padding: 2rem;
+            border-radius: 1rem;
+            border: #000 2px solid;
+            top: -6rem;
+            left: 57%;
+        }
+
+        #nft1 {
+            left: 2%;
+            top: -7.5rem;
+            margin-top: 4.5rem;
+            height: 2vh;
+            width: 20vw;
+            background-image: url(images/mint.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+        }
+
+        #nft2 {
+            width: 5rem;
+            height: 1rem;
+            top: -7.5rem;
+            left: 50%;
+            background-image: url(images/staking.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+        /*TOKENOMICS*/ 
+        .tokenomics {
+            position: relative;
+            box-sizing: content-box;
+            padding: 0 .5rem 0 1.3rem;
+        }
+
+        #toke-section {
+            margin-top: 10rem;
+            text-align: center;
+            width: 20rem;
+            height: 10rem;
+            left: 10%;
+            margin-bottom: 15rem;
+        }
+
+
+        .text-container {
+            position: relative;
+            margin-top: 1rem;
+            color: #fff;
+        }
+
+        .text-container h4 {
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .icon-container {
+            background-color: #dcd;
+            clip-path: circle(1rem);
+            padding: .5rem;
+        }
+
+        .icon {
+            font-size: 1rem;
+            color: #a0a;
+        }
+
+        /*FOOTER*/
+         footer {
+            padding: 1rem 0 0 0;
+        }
+
+        footer img {
+            width: 5vw;
+            height: 1.5rem;
+            position: relative;
+            left: -1rem;
+        }
+
+        .chains {
+            width: 15vw;
+            height: 2rem;
+
+        }
+
+        footer a {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            left: auto;
+        }
+    }
+
+}
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {}
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {}
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body {}
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    p {
+        font-size: 1rem;
+    }
+
+    .about-description {
+        margin-top: 2.7%;
+    }
+
+    .about-description h2 {
+        margin-left: 30px;
+    }
+
+    #nft {
+        margin-top: 4.3%;
+        margin-left: 10%;
+    }
+
+    #nft1 {
+        margin-top: 3.5%;
+        margin-left: -4%;
+    }
+
+    .about-nft {
+        width: 100%;
+    }
+
+    .about-nft h2 {
+        margin-top: -1rem;
+        margin-left: 40.5%;
+    }
+
+    .about-nft p {
+        margin-top: 2%;
+    }
+
+    .nft-images {
+        width: 30%;
+        height: 50%;
+        margin-top: 1.5rem;
+    }
+
+    #nft1 {
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100%;
+        margin-left: 10px;
+    }
+
+    #nft2 {
+        margin-top: 5.5%;
+    }
+}
