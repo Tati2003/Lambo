@@ -290,6 +290,7 @@ footer .info:hover {
         height: 4rem;
     }
 
+<<<<<<< HEAD
     ul>li {
         margin: 2rem .5rem;
         left: 1rem;
@@ -442,3 +443,37 @@ footer a {
     body {}
 
 }
+=======
+          
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+            body {
+                
+            }
+        }
+          
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px){
+            body {
+                
+            }
+        }
+          
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px){
+            body {
+                
+            }
+        }
+          
+        /* Media Query for Large screens */
+        @media (min-width: 1281px) {
+            .about-description {
+                margin-top: 2.7%;       
+            }
+            #nft {
+                margin-top: 2.3%;
+                margin-left: 10%;
+            }
+        }
+>>>>>>> c5d1d057c382e6c3e80eed67928c5ce70e275909
