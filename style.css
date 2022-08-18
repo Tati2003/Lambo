@@ -100,16 +100,10 @@ nav a:hover {
 }
 
 /*Second Description(reverse) */
-<<<<<<< HEAD
-#desc {
+#desc{
     top: 4rem;
     left: 38%;
-    text-align: end;
-=======
-#desc{
-    left: 38%;
-    text-align: start;
->>>>>>> 0ae3903476dbfc6f8f111e5ba7aeda0b9b0de5e3
+text-align: end;
 }
 
 
@@ -282,174 +276,19 @@ footer .info:hover {
 
 /*RESPONSIVE DESIGN*/
 
-/* Media Query for Mobile Devices */
-@media (max-width: 480px) {
-    nav img {
-        margin-left: .5rem;
-        max-width: 14vw;
-        max-height: 12vh;
-    }
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+            nav img {
+                margin-left: 1rem;
+                margin-top: .5rem;
+                cursor: pointer;
+                max-width: 14vw;
+                max-height: 12vh;
+            }
+            
 
-    ul {
-        width: 100vw;
-        background: radial-gradient(circle at 50% 50%, #515, #000);
-        height: 4rem;
-    }
+            }
 
-<<<<<<< HEAD
-    ul>li {
-        margin: 2rem .5rem;
-        left: 1rem;
-        top: -10%;
-
-    }
-/*Nav end*/
-
-/*CARDS*/
-.description {
-    margin-top: 5%;
-    margin-left: 8%;
-    width: 20rem;
-    height: 10rem;
-}
-
-.description h2 {
-    font-size: 1rem;
-}
-
-.desc {
-    margin-left: .5rem;
-    margin-top:1rem ;
-    font-size: .5rem;
-    width: 45%;
-    top: 1.5rem;
-}
-
-/*description in reverse*/
-#desc {
-    top: 1.7rem;
-    left: 40%;
-    margin-left: 2rem;
-    font-size: .5rem;
-    text-align: end;
-}
-
-#nft,
-#nft1,
-#nft2 {
-
-    width: 4rem;
-    height: 2rem;
-    padding: 2rem;
-    border-radius: 1rem;
-    border: #000 2px solid;
-    top: -6rem;
-    left: 57%;
-}
-
-#nft1 {
-    left: 2%;
-    top: -7.5rem;
-    margin-top: 4.5rem;
-    height: 2vh;
-    width: 20vw;
-    background-image: url(images/mint.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    
-}
-
-#nft2 {
-    width: 5rem;
-    height: 1rem;
-    top: -7.5rem;
-    left: 50%;
-    background-image: url(images/staking.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-/*TOKENOMICS*/
-.tokenomics {
-    position: relative;
-    box-sizing: content-box;
-    padding: 0 .5rem 0 1.3rem;
-}
-#toke-section {
-    margin-top: 10rem;
-    text-align: center;
-    width: 20rem;
-    height: 10rem;
-    left: 5%;
-    margin-bottom: 15rem;
-}
-
-
-.text-container {
-    position: relative;
-    margin-top: 1rem;
-    color: #fff;
-}
-.text-container h4 {
-    font-size: 1rem;
-    text-align: center;
-}
-
-.icon-container {
-    background-color: #dcd;
-    clip-path: circle(1rem);
-    padding: .5rem;
-}
-
-.icon {
-    font-size: 1rem;
-    color: #a0a;
-}
-/*FOOTER*/
-footer{
-    padding: 1rem 0 0 0;
-}
-footer img {
-    width: 5vw;
-    height: 1.5rem;
-    position: relative;
-    left: -1rem;
-}
-.chains {
-    width: 15vw;
-    height: 2rem;
-
-}
-footer a {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    left: auto;
-}}
-
-
-
-/* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
-    body {}
-}
-
-/* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1024px) {
-    body {}
-}
-
-/* Media Query for Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px) {
-    body {}
-}
-
-/* Media Query for Large screens */
-@media (min-width: 1281px) {
-    body {}
-
-}
-=======
           
         /* Media Query for low resolution  Tablets, Ipads */
         @media (min-width: 481px) and (max-width: 767px) {
@@ -490,39 +329,4 @@ footer a {
                 margin-top: 4.3%;
                 margin-left: 10%;
             }
-<<<<<<< HEAD
         }
->>>>>>> c5d1d057c382e6c3e80eed67928c5ce70e275909
-=======
-
-            #nft1 {
-                margin-top: 3.5%;
-                margin-left: -4%;
-            }
-
-            .about-nft {
-                width: 100%;
-            }
-
-            .about-nft h2 {
-                margin-top: -1rem;
-                margin-left: 40.5%;
-            }
-            .about-nft p {
-                margin-top: 2%;
-            }
-
-            .nft-images {
-                width: 30%;
-                height: 50%;
-                margin-top: 1.5rem;
-            }
-
-            #nft1 {
-                background-size: 100% 100%;
-                width: 100%;
-                height: 100%;
-                margin-left: 10px;
-            }
-        }
->>>>>>> 0ae3903476dbfc6f8f111e5ba7aeda0b9b0de5e3
