@@ -99,7 +99,7 @@ nav a:hover {
     font-weight: bold;
 }
 #desc{
-    top: 5rem;
+    top: 4rem;
     margin-left: 1rem;
     left: 40%;
 }
@@ -129,7 +129,7 @@ nav a:hover {
 
 #nft1 {
     left: 5%;
-    top: -5rem;
+    top: -7.5rem;
     margin-top: 3rem;
     height: 5rem;
     background-image: url(images/mint.jpg);
@@ -138,7 +138,7 @@ nav a:hover {
 }
 
 #nft2 {
-    margin-top: 2rem;
+    margin-top: 5rem;
     padding: none;
     height: 4rem;
     background-image: url(images/staking.png);
@@ -693,6 +693,10 @@ margin-left: -4%;
     ul li {
         position: static;
     }
+    .description {
+        padding: .2rem 1rem;
+        height: 18rem;
+    }
 
     .desc {
         font-size: 1.2rem;
@@ -707,8 +711,8 @@ margin-left: -4%;
     }
 
     #nft {
-        margin-top: 4.3%;
-        margin-left: 10%;
+        margin-top: 1%;
+        margin-left: 2%;
     }
 
     .about-nft {
@@ -730,33 +734,33 @@ margin-left: -4%;
     }
 
     #nft1 {
-        margin-top: 3.5%;
+        margin-top: -10%;
         margin-left: -4%;
         background-size: 100% 100%;
-        width: 100%;
+        width: 100%;    
         height: 100%;
-        margin-left: 10px;
+    
     }
 
     #nft2 {
         background-size: 100% 100%;
-        width: 30%;
-        height: 50%;
-        margin-left: 10px;
+        width: 35%;
+        height: 40%;
+        margin-left: -5rem;
     }
-
+    #desc {
+        
+        left: 40%;
+    }
     .about-staking {
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     .about-staking h2 {
-        margin-left: 30px;
+        margin-left: 2rem;
     }
 
-    #desc {
-        left: 40%;
-    }
-    
+
     #toke-section {
         margin-top: 10rem;
         width: 50%;
