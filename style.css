@@ -468,7 +468,7 @@ footer .info:hover {
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-   
+ 
     nav img {
         max-width: 9vw;
         max-height: 12vh;
@@ -476,13 +476,14 @@ footer .info:hover {
     .description {
         margin-top: 5%;
         margin-left: 8%;
-        width: 90%;
-        height: 20rem;
+        width: 25rem;
+        height: 10rem;
         position: relative;
         left: -2%;
     }
     .about-description h2{
-margin-left: -4%;
+    margin-left: -4%;
+    font-size: 1rem 
     }
     .nft-images1{
         position: relative;
@@ -497,15 +498,24 @@ margin-left: -4%;
         top: 3%;
     }
     .about-nft h2 {
-        margin-left: 15%;
         position: relative;
-        top: 35%;
+        top: 18%;
+        left: 20%;
+        font-size: 1rem 
     }
     .desc {
-        font-size: 1rem;
-        height: 95%;
-        width: 50%;
+        font-size: .5rem;
+        top:30%;
+        
     }
+
+    #desc{
+        top:1.5rem;
+        left: -1.4rem;
+        text-align: end;
+        font-size: .5rem;
+    }
+    
     .aboutmain{
         width: 100%;
         height: 60%;
@@ -515,37 +525,43 @@ margin-left: -4%;
     }
     .aboutmain h2{
         position: relative;
-        left: 10%;
+        left: 15%;
         top: 20%;
+        font-size: 1rem 
+    }
+    .about-staking .desc{
+        left: 1%;
+        top: 3rem;
+        text-align: left;
     }
     #nft{
-        width: 12rem;
-        height: 6rem;
+        width: 7.5rem;
+        height: 4rem;
         padding: 4%;
         border-radius: 1rem;
         border: #000 2px solid;
-        top: -7rem;
-        left: 60%;  
+        top: -4rem;
+        left: 65%;  
     }
     #nft1 {
         left: 2%;
-        top: -7.5rem;
+        top: -6rem;
         margin-top: 4.5rem;
-        height: 15vh;
-        width: 30vw;
+        height: 4vh;
+        width: 20vw;
         background-image: url(images/mint.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
-
     }
+
     #nft2{
-        width: 40%;
-        height: 18%;
+        width: 25vw;
+        height: 5vh;
         padding: 4%;
         border-radius: 1rem;
         border: #000 2px solid;
-        top: -35%;
-        left: 53%;  
+        top: -85%;
+        left: 60%;  
     }
     /* TOKENOMICS */
 
