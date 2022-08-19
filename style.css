@@ -68,7 +68,7 @@ nav a:hover {
 /*CARDS*/
 .description {
     margin-top: 5rem;
-    margin-left: 16rem;
+    margin-left: 13rem;
     background-color: #515;
     border: 3px solid #115;
     width: 70vw;
@@ -233,7 +233,7 @@ footer {
     position: relative;
     bottom: 0;
     background-color: #000;
-    /* background: radial-gradient(circle at 50% 50%, #6d58b1, #000); */
+
 }
 
 
@@ -330,8 +330,6 @@ footer .info:hover {
             margin-left: 2rem;
             font-size: .5rem;
             text-align: end;
-          
-            
         }
 
         #nft,
@@ -444,7 +442,50 @@ footer .info:hover {
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    nav img {
+        margin-left: 2rem;
+        max-width: 10vw;
+        max-height: 7vh;
+    }
+
+     /*Nav end*/
+         /*CARDS*/ 
+         .description {
+            margin-left: 15%;
+        }
+
+    #nft,
+    #nft1,
+    #nft2 {
+
+        width: 8rem;
+        height: 4rem;
+        top: -4rem;
+        left: 65%;
+    }
+    #nft1 {
+        left:6%;
+        top:-4rem;
+        width: 10rem;
+    }
+    #desc {
+        left: 40%;
+        font-size: 1rem;
+        top: 6rem;
+    }
+    #nft2{
+        top:-7rem;
+        width: 10rem;
+    }
+    #toke-section {
+        left: 19%;
+        margin-bottom: 15rem;
+    }
+
     
+
+
 }
 
 /* Media Query for Laptops and Desktops */
