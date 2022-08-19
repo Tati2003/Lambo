@@ -276,8 +276,6 @@ footer .info:hover {
 
 /*RESPONSIVE DESIGN*/
 
-/* Media Query for Mobile Devices */
-@media (max-width: 480px) {
 
     /* Media Query for Mobile Devices */
     @media (max-width: 480px) {
@@ -311,25 +309,36 @@ footer .info:hover {
 
         .description h2 {
             font-size: 1rem;
-            position: relative;
-            top:1rem;
         }
+        .about-nft {
+            width: 100%;
+            height: 50%;
+            position: relative;
+            top: -35%;
+        }
+        .about-nft h2 {
+            margin-left: 62%;
+            position: relative;
+            top: 90%;
+        }
+
 
         .desc {
             margin-left: .5rem;
-            margin-top: .5rem;
+            margin-top: 1rem;
             font-size: .5rem;
             width: 45%;
             top: 1.5rem;
-        }
 
-        /*description in reverse*/ 
+        }
         #desc {
-            top: 2rem;
+            top: 1.7rem;
             left: 40%;
             margin-left: 2rem;
             font-size: .5rem;
             text-align: end;
+            width: 45%;
+            top: 4rem;
         }
 
         #nft,
@@ -344,6 +353,7 @@ footer .info:hover {
             top: -6rem;
             left: 57%;
         }
+
 
         #nft1 {
             left: 2%;
@@ -366,6 +376,35 @@ footer .info:hover {
             background-repeat: no-repeat;
             background-size: 100% 100%;
         }
+        .aboutmain h2{
+            margin-left: 5%;
+            position: relative;
+            top: 40%;
+        }
+        .aboutmain{
+            width: 100%;
+            height: 50%;
+            position: relative;
+            top: -15%;
+        }
+        #nft{
+            width: 4rem;
+            height: 2rem;
+            padding: 2rem;
+            border-radius: 1rem;
+            border: #000 2px solid;
+            top: -3.5rem;
+            left: 57%;  
+        }
+        #nft2{
+            width: 5rem;
+            height: 3rem;
+            padding: 2rem;
+            border-radius: 1rem;
+            border: #000 2px solid;
+            top: -6.5rem;
+            left: 50%;  
+        }
 
         /*TOKENOMICS*/ 
         .tokenomics {
@@ -375,12 +414,12 @@ footer .info:hover {
         }
 
         #toke-section {
-            margin-top: 10rem;
+            margin-top: 3rem;
             text-align: center;
             width: 20rem;
             height: 10rem;
             left: 10%;
-            margin-bottom: 15rem;
+            margin-bottom: 8rem;
         }
 
 
@@ -432,12 +471,13 @@ footer .info:hover {
         }
     }
 
-}
+
+
 
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-    body {}
+   
 }
 
 /* Media Query for Tablets Ipads portrait mode */
@@ -449,8 +489,8 @@ footer .info:hover {
         max-height: 7vh;
     }
 
-     /*Nav end*/
-         /*CARDS*/ 
+     /* /Nav end/
+         /CARDS/  */
          .description {
             margin-left: 15%;
         }
@@ -481,12 +521,9 @@ footer .info:hover {
     #toke-section {
         left: 19%;
         margin-bottom: 15rem;
-    }
-
-    
+    }}
 
 
-}
 
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
