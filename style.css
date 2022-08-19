@@ -316,12 +316,11 @@ footer .info:hover {
             width: 100%;
             height: 50%;
             position: relative;
-            top: -35%;
+            top: -40%;
         }
         .about-nft h2 {
-            margin-left: 62%;
             position: relative;
-            top: 90%;
+            top: 90%;   
         }
 
 
@@ -334,7 +333,7 @@ footer .info:hover {
 
         }
         #desc {
-            top: 1.7rem;
+            top: 1rem;
             left: 40%;
             margin-left: 2rem;
             font-size: .5rem;
@@ -372,7 +371,8 @@ footer .info:hover {
         #nft2 {
             width: 5rem;
             height: 1rem;
-            top: -7.5rem;
+            padding: 2rem;
+            top: -6.5rem;
             left: 50%;
             background-image: url(images/staking.png);
             background-repeat: no-repeat;
@@ -397,15 +397,6 @@ footer .info:hover {
             border: #000 2px solid;
             top: -3.5rem;
             left: 57%;  
-        }
-        #nft2{
-            width: 5rem;
-            height: 3rem;
-            padding: 2rem;
-            border-radius: 1rem;
-            border: #000 2px solid;
-            top: -6.5rem;
-            left: 50%;  
         }
 
         /*TOKENOMICS*/ 
