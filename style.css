@@ -657,17 +657,17 @@ footer .info:hover {
     }
     #nft1 {
         left:2%;
-        top:-7rem;
+        top:-11rem;
         width: 10rem;
         background-size: 100% 100%;
     }
     #desc {
         left: 40%;
         font-size: 1rem;
-        top: 4.5rem;
+        top: 2rem;
     }
     #nft2{
-        top:-9rem;
+        top:-5rem;
         width: 8rem;
     }
     #toke-section {
@@ -677,7 +677,12 @@ footer .info:hover {
     }
     .icon-container {
         padding: 1rem;
-    }}
+    }
+    footer a{
+        left:9%;
+    }
+
+}
 
 
 
