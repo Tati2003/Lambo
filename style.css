@@ -270,12 +270,10 @@ footer .info:hover {
 
 /*RESPONSIVE DESIGN*/
 
-<<<<<<< HEAD
 
-    /* Media Query for Mobile Devices */
-=======
+
 /* Media Query for Mobile Devices */
->>>>>>> 8ba04247c1f5b1b89da6fb45d8ee52899edc7b41
+
     @media (max-width: 480px) {
         nav img {
             margin-left: .5rem;
@@ -469,11 +467,6 @@ footer .info:hover {
         }
     }
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 8ba04247c1f5b1b89da6fb45d8ee52899edc7b41
 
 
 /* Media Query for low resolution  Tablets, Ipads */
@@ -483,7 +476,7 @@ footer .info:hover {
 
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px) {
-<<<<<<< HEAD
+
 
     nav img {
         margin-left: 2rem;
@@ -526,10 +519,9 @@ footer .info:hover {
     }}
 
 
-=======
-    body {}
-}
->>>>>>> 8ba04247c1f5b1b89da6fb45d8ee52899edc7b41
+
+
+
 
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
